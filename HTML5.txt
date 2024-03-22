@@ -1,0 +1,18 @@
+O que é HTML?
+HTML é uma linguagem de marcação usada para criar a estrutura básica de uma página da web. Ele define a estrutura e o conteúdo da página por meio de elementos e tags.
+
+Elementos HTML:
+
+Tags: As tags são os blocos de construção do HTML e são usadas para marcar diferentes partes do conteúdo da página. Elas geralmente vêm em pares, uma de abertura <tag> e uma de fechamento </tag>, com o conteúdo entre elas.
+Atributos: São informações adicionais fornecidas às tags para modificar seu comportamento ou fornecer metadados. Por exemplo, o atributo href em uma tag <a> especifica o URL de destino de um link.
+Estrutura básica: Uma página HTML geralmente começa com <!DOCTYPE html> para definir o tipo de documento e em seguida <html>, seguido de <head> para metadados e <body> para o conteúdo visível da página.
+Principais elementos HTML:
+
+<head>: Contém metadados, como título da página, links para folhas de estilo, scripts e outras informações.
+<title>: Define o título da página que aparece na barra de título do navegador.
+<body>: Contém todo o conteúdo visível da página, como texto, imagens, vídeos e outros elementos.
+<h1>, <h2>, <h3>, ... <h6>: Títulos de diferentes níveis, usados para estruturar o conteúdo.
+<p>: Define um parágrafo.
+<a>: Define um link.
+<img>: Define uma imagem.
+<div> e <span>: Elementos de divisão usados para agrupar outros elementos e aplicar estilos.
