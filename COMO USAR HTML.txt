@@ -1,0 +1,94 @@
+1- Criar um arquivo HTML:
+Comece criando um novo arquivo com a extensão .html, por exemplo, index.html.
+
+2-Definir a estrutura básica:
+Use a estrutura básica do HTML inserindo o elemento <html>, <head> e <body>.
+
+
+EXEMPLO:
+---------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da Página</title>
+</head>
+<body>
+    <!-- Conteúdo da página aqui -->
+</body>
+</html>
+----------------------------------------------------------------------------------
+
+
+3- Adicionar elementos HTML:
+Dentro do elemento <body>, adicione os elementos HTML necessários para criar o conteúdo da página, como títulos, parágrafos, imagens, links, formulários, entre outros.
+
+
+---------------------------------------------------------------------------------
+<body>
+    <h1>Meu Primeiro Site</h1>
+    <p>Bem-vindo ao meu site!</p>
+    <img src="imagem.jpg" alt="Descrição da Imagem">
+    <a href="pagina.html">Link para outra página</a>
+    <!-- Mais elementos aqui -->
+</body>
+---------------------------------------------------------------------------------
+
+
+4- Utilizar tags semânticas:
+Utilize tags semânticas do HTML5 para melhorar a acessibilidade e a indexação do seu conteúdo pelos mecanismos de busca. Exemplos incluem <header>, <nav>, <main>, <section>, <article>, <aside>, <footer>.
+
+
+---------------------------------------------------------------------------------
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre Nós</h2>
+            <p>Texto sobre a empresa.</p>
+        </section>
+        <section>
+            <h2>Serviços</h2>
+            <ul>
+                <li>Serviço 1</li>
+                <li>Serviço 2</li>
+                <li>Serviço 3</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meu Site</p>
+    </footer>
+</body>
+---------------------------------------------------------------------------------
+
+
+5- Incorporar conteúdo multimídia:
+Use as tags apropriadas para incorporar conteúdo multimídia, como imagens, vídeos e áudios.
+
+
+---------------------------------------------------------------------------------
+<img src="imagem.jpg" alt="Descrição da Imagem">
+<video src="video.mp4" controls></video>
+<audio src="audio.mp3" controls></audio>
+---------------------------------------------------------------------------------
+
+
+6- Referenciar outros recursos:
+Se necessário, inclua referências a outros recursos, como folhas de estilo CSS, scripts JavaScript e fontes.
+
+
+---------------------------------------------------------------------------------
+<link rel="stylesheet" href="estilos.css">
+<script src="script.js"></script>
+---------------------------------------------------------------------------------
